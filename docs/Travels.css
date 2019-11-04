@@ -9,3 +9,6 @@ table,th,td{
 div{
     padding: 20px;
 }
+.firstRum{
+    display: flex;
+}

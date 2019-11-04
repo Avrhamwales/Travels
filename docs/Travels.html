@@ -9,18 +9,26 @@
 </head>
 <body>
     <div class="app">
-        <div>
-            <table >
-                <tr><th>code</th><th>name</th><th>price</th></tr>
-
-            </table>
-        </div>
-        <div>
-                <table >
-                    <tr><th>Numbering</th><th>name</th><th>id</th><th>travel<br>name</th><th>num<br>Passengers</th><th>total prise</th></tr>
-    
+        <div class="firstRum">
+            <div>
+                <table id="tableTravels">
+                    <tr><th>code</th><th>name</th><th>price</th></tr>
                 </table>
             </div>
+            <div>
+                <label>name</label><input id="nname" ></input><br>
+                <label>id</label><input id="nid" type="text"></input><br>
+                <label>id travel</label><input id="nidTravel" type="number"></input><br>
+                <label>num pass</label><input id="nNumPass" type="number"></input><br>
+                <button onclick="sendact()">send</button>
+            </div>
+
+        </div>
+        <div>
+            <table id="tbOrders" >
+                    <tr><th>Numbering</th><th>name</th><th>id</th><th>travel<br>name</th><th>num<br>Pass</th><th>total prise</th></tr>
+            </table>
+        </div>
             
     </div>
    
